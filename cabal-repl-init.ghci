@@ -1,0 +1,8 @@
+-- Load library modules
+:load src/Helpers.hs src/MyLib.hs src/Solutions/P3691.hs
+
+-- Load test modules
+:load test/Problems/P3691.hs
+
+-- Helper functions for running tests
+let runTests = tests
